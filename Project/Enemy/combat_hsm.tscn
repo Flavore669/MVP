@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bc4a2khbnb0f1"]
+
+[ext_resource type="Script" path="res://EnemyStuff/AI/combat_hsm.gd" id="1_3shpd"]
+
+[node name="CombatHSM" type="LimboHSM"]
+script = ExtResource("1_3shpd")
