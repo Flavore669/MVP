@@ -20,11 +20,23 @@ position = Vector2(91, 77)
 
 [node name="PatrolPoints2" type="Node2D" parent="EnemyBaseHSM"]
 position = Vector2(91.1111, 21.6667)
+rotation = 1.13858
 script = ExtResource("2_gqsua")
+match_rotation = true
 
 [node name="PatrolPoints" type="Node2D" parent="EnemyBaseHSM"]
 position = Vector2(493.889, 272.222)
 script = ExtResource("2_gqsua")
+
+[node name="PatrolPoints3" type="Node2D" parent="EnemyBaseHSM"]
+position = Vector2(257.778, 261.111)
+script = ExtResource("2_gqsua")
+
+[node name="PatrolPoints4" type="Node2D" parent="EnemyBaseHSM"]
+position = Vector2(19.4444, 162.778)
+rotation = -1.9136
+script = ExtResource("2_gqsua")
+match_rotation = true
 
 [node name="Button" type="Button" parent="."]
 anchors_preset = 1
