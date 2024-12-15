@@ -56,8 +56,6 @@ func intialize_nodes():
 			patrol_points.append(child)
 		
 	
-	#combat_hsm.enemy = self
-	#add_child(combat_hsm)
 	
 	stay_still_timer.one_shot = true
 	add_child(stay_still_timer)
@@ -132,6 +130,7 @@ func add_state(state_name : String, enter : Callable, update : Callable) -> Limb
 	var state : LimboState = LimboState.new().named(state_name).call_on_enter(enter).call_on_update(update)
 	state_list.append(state)
 	return state
+	
 	
 	
 #Navigation
